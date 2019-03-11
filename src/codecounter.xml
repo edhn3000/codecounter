@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeCounters>
+  <!-- 
+    ext   扩展名
+    comment       单行注释开始符
+    commentBegin  多行注释开始符
+    commentEnd    多行注释结束符
+    factor        折算系数
+   -->
+  <CodeCounter ext=".java" comment="//" commentBegin="/*" commentEnd="*/" factor="1" />
+  <CodeCounter ext=".pas" comment="//" commentBegin="{" commentEnd="}" factor="1" />
+  <CodeCounter ext=".js" comment="" commentBegin="&lt;!--" commentEnd="--&gt;" factor="1" />
+  <CodeCounter ext=".htm" comment="//" commentBegin="&lt;!--" commentEnd="--&gt;" factor="0.6" />
+  <CodeCounter ext=".xml" comment="" commentBegin="&lt;!--" commentEnd="--&gt;" factor="0.6" />
+  <CodeCounter ext=".sql" comment="--" commentBegin="/*" commentEnd="*/" factor="0.6" />
+  <CodeCounter ext=".properties" comment="#" commentBegin="" commentEnd="" factor="0.2" />
+</CodeCounters>
